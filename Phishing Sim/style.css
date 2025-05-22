@@ -1,0 +1,35 @@
+body {
+  font-family: 'Times New Roman', serif;
+  background-color: #e6f5e6;
+  color: #2e7d32;
+  text-align: center;
+  padding: 40px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+#email-box {
+  background: #ffffff;
+  padding: 20px;
+  border: 2px solid #81c784;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+button {
+  background-color: #66bb6a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #388e3c;
+}
+#feedback {
+  font-weight: bold;
+  margin-top: 10px;
+}

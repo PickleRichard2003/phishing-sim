@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Phishing Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Phishing Email Simulator</h1>
+    <div id="email-box">
+      <p id="email-content">Loading...</p>
+    </div>
+    <div class="buttons">
+      <button onclick="selectAnswer(true)">Phishing</button>
+      <button onclick="selectAnswer(false)">Safe</button>
+    </div>
+    <p id="feedback"></p>
+    <p id="score">Score: 0/0</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
